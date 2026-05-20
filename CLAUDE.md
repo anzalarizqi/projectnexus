@@ -132,7 +132,9 @@ Channel membership enforced cryptographically via signed invitations.
 
 ---
 
-## Build Phases (summary)
+## Build Phases (summary — v1 scope)
+
+Cut from v1 (revisit v2): PTT Audio, Coordinator Status Board, Simulator Mode, Press Statement → journalist SMS blast, march route drawing, narrated training audio.
 
 | # | Phase | Key Deliverable | v1.3? |
 |---|-------|----------------|-------|
@@ -145,18 +147,26 @@ Channel membership enforced cryptographically via signed invitations.
 | 6 | Layer 2 Mesh | BLE + WiFi Direct mesh | — |
 | 7 | Layer 3 SMS | SMS fallback + warning UI | YES |
 | 8 | Emergency | SOS + Panic Wipe + Decoy | — |
-| 9 | Map | Offline maps + pins | — |
-| 10 | PTT Audio | Voice clips over mesh | — |
-| 11 | Press Statement | Leaders write, all confirm | — |
-| 12 | Status Board | Action Leader overview | — |
-| 13 | Battery Management | Power saving system | YES |
-| 14 | Update System | Secure in-app updates | YES |
-| 15 | Simulator | Training sandbox | — |
-| 16 | Training Module | In-app tutorial | — |
-| 17 | Hardening | Device testing + stress UX | — |
-| 18 | Distribution | APK signing + F-Droid | — |
+| 9 | Map | Offline maps + pin dropping (no route drawing) | — |
+| 10 | Press Statement | Leaders write, all read + confirm offline | — |
+| 11 | Battery Management | Power saving system | YES |
+| 12 | Update System | Secure in-app updates | YES |
+| 13 | Training Module | Simple text-only in-app tutorial | — |
+| 14 | Hardening | Device testing + stress UX | — |
+| 15 | Distribution | APK signing + F-Droid | — |
 
 Full phase details in plan file: `.claude/plans/sunny-sleeping-goblet.md`
+
+### What was cut from v1 and why
+
+| Cut | Reason |
+|-----|--------|
+| PTT Audio | Operationally redundant with text; Opus + chunked relay adds weeks of work |
+| Coordinator Status Board | Requires stable mesh to be meaningful; add in v1.1 with real field data |
+| Simulator Mode | Duplicates Training Module; cut entirely |
+| Press statement → journalist SMS blast | Contact management complexity not worth it for v1 |
+| Map: march route drawing | Hard UX under stress; pin dropping covers the real need |
+| Narrated training audio | Production task on top of development; text at large font is enough |
 
 ---
 
@@ -183,7 +193,8 @@ Full phase details in plan file: `.claude/plans/sunny-sleeping-goblet.md`
 ### Session 1 — 2026-05-20
 - Read and understood all PRD documents (v1.2, v1.3, Critical Amendments)
 - Researched and decided revised tech stack (dropped Briar JNI, adopted WiFi Direct + BLE; dropped Signal Protocol JS, adopted libsodium; confirmed MapLibre for maps)
-- Created end-to-end build plan (18 phases) — `.claude/plans/sunny-sleeping-goblet.md`
+- Created end-to-end build plan (18 phases) → revised to 15 phases after scope cut
+- **Scope decision:** Cut PTT Audio, Status Board, Simulator, journalist SMS blast, route drawing, narrated audio from v1. Rationale documented in CLAUDE.md and commit history.
 - **Phase 0 complete:**
   - Created `CLAUDE.md` (this file)
   - Updated `package.json` to React Native 0.76+ with all dependencies

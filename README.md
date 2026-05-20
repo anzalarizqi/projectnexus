@@ -23,14 +23,13 @@ All messages are end-to-end encrypted. NEXUS does not operate any servers. No ph
 ### Features
 
 - Encrypted group messaging across channels (sectors, logistics, legal observers, media)
-- Push-to-talk voice clips (walkie-talkie style) — works offline
-- Offline maps with coordinator pins and march route
+- Offline maps with coordinator pins — Rally Point, Police Line, Exit Route, Medical, Water Station
 - Emergency SOS broadcast to all reachable coordinators
 - Arrest alert with automatic legal observer notification
-- Press statement distribution — all coordinators carry the same official statement
+- Press statement — leaders write once, every coordinator reads and confirms, cached fully offline
 - Panic wipe — full data erasure in under 3 seconds
 - Decoy mode — app appears as a notes app to casual inspection
-- In-app training and simulator mode
+- In-app training module (text, Bahasa Indonesia, works offline)
 
 ### Who it is for
 
@@ -108,14 +107,13 @@ Semua pesan dienkripsi ujung-ke-ujung. NEXUS tidak mengoperasikan server apapun.
 ### Fitur
 
 - Pesan grup terenkripsi di berbagai saluran (sektor, logistik, pengamat hukum, media)
-- Klip suara tekan-bicara (walkie-talkie) — berfungsi tanpa internet
-- Peta offline dengan penanda koordinator dan rute aksi
+- Peta offline dengan penanda koordinator — Titik Kumpul, Garis Polisi, Jalur Keluar, Medis, Pos Air
 - Siaran darurat SOS ke semua koordinator yang terjangkau
 - Peringatan penangkapan dengan notifikasi otomatis ke pengamat hukum
-- Distribusi pernyataan pers — semua koordinator membawa pernyataan resmi yang sama
+- Pernyataan pers — pemimpin menulis sekali, semua koordinator membaca dan mengkonfirmasi, tersimpan offline
 - Hapus panik — penghapusan data lengkap dalam waktu kurang dari 3 detik
 - Mode penyamaran — aplikasi terlihat seperti aplikasi catatan
-- Pelatihan dalam aplikasi dan mode simulator
+- Modul pelatihan dalam aplikasi (teks, Bahasa Indonesia, berfungsi offline)
 
 ### Untuk siapa
 

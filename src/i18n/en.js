@@ -140,7 +140,7 @@ Do you want to continue using SMS?`,
     readConfirm: 'Read & Confirm',
     confirmed: 'Confirmed',
     pending: 'Pending',
-    pushToPress: 'Send to Journalists via SMS',
+    // pushToPress: CUT FROM V1 — journalist SMS blast removed
   },
 
   update: {
@@ -163,7 +163,7 @@ Do you want to continue using SMS?`,
   settings: {
     title: 'Settings',
     training: 'Training Module',
-    simulator: 'Simulator Mode',
+    // simulator: CUT FROM V1
     checkUpdate: 'Check for Updates',
     downloadMap: 'Download Operation Map',
     safetyNumber: 'Verify Safety Number',

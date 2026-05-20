@@ -149,7 +149,7 @@ Apakah Anda ingin melanjutkan menggunakan SMS?`,
     readConfirm: 'Baca & Konfirmasi',
     confirmed: 'Dikonfirmasi',
     pending: 'Menunggu',
-    pushToPress: 'Kirim ke Jurnalis via SMS',
+    // pushToPress: CUT FROM V1 — journalist SMS blast removed
   },
 
   // === Update System (v1.3 mandatory) ===
@@ -174,7 +174,7 @@ Apakah Anda ingin melanjutkan menggunakan SMS?`,
   settings: {
     title: 'Pengaturan',
     training: 'Modul Pelatihan',
-    simulator: 'Mode Simulator',
+    // simulator: CUT FROM V1
     checkUpdate: 'Periksa Pembaruan',
     downloadMap: 'Unduh Peta Operasi',
     safetyNumber: 'Verifikasi Nomor Keamanan',
