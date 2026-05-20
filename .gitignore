@@ -1,0 +1,61 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# React Native
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/debug.keystore
+android/app/release.keystore
+ios/Pods/
+ios/build/
+*.jks
+*.keystore
+
+# Secrets / credentials — never commit these
+.env
+.env.*
+secrets/
+*.pem
+*.p8
+*.p12
+
+# Metro bundler
+.metro-health-check*
+metro-cache/
+
+# Build artifacts
+build/
+dist/
+*.apk
+*.aab
+*.ipa
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Claude Code local settings
+.claude/
+
+# Test coverage
+coverage/

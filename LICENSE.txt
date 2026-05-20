@@ -1,0 +1,30 @@
+NEXUS Field Coordination App — License Statement
+
+Copyright (C) 2026 [Developer Pseudonym]
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Full AGPLv3 text should be included in production releases. For development copies, include the full AGPLv3 text in the repository.
+
+---
+
+PROHIBITED USE ADDENDUM
+
+This software is designed and intended for lawful civic coordination,
+including peaceful demonstrations, community organizing, and other
+legitimate uses protected under Indonesian law and international
+human rights norms.
+
+You MAY NOT use this software to:
+- Plan, coordinate, or facilitate any criminal activity
+- Violate any applicable laws in your jurisdiction
+- Infringe upon the rights of others
+
+The developer explicitly condemns any use of this software for
+illegal purposes and bears no responsibility for misuse.
+
+Use of this software for prohibited purposes is a material breach
+of this license and may subject you to legal liability.
